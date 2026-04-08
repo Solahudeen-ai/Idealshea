@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NigShea | Premium Export-Grade Shea Butter</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Config for Custom Brand Colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        forest: {
+                            800: '#143b29',
+                            900: '#0a2116',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        },
+                        slate: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Background overlay for Hero */
+        .bg-hero-pattern {
+            background-image: linear-gradient(to right, rgba(10, 33, 22, 0.9), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1611078816823-3b10b0671607?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 antialiased bg-slate-50 selection:bg-amber-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-forest-900/95 backdrop-blur-md border-b border-forest-800 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="leaf" class="text-amber-500 w-8 h-8"></i>
+                    <span class="text-white font-bold text-2xl tracking-tight">NigShea<span class="text-amber-500">.</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-slate-100 hover:text-amber-500 font-medium transition-colors">Platform</a>
+                    <a href="#specs" class="text-slate-100 hover:text-amber-500 font-medium transition-colors">Specifications</a>
+                    <a href="#sourcing" class="text-slate-100 hover:text-amber-500 font-medium transition-colors">Traceability</a>
+                </div>
+                <div class="hidden md:block">
+                    <a href="#specs" class="bg-amber-500 hover:bg-amber-600 text-forest-900 font-semibold px-6 py-2.5 rounded-lg transition-all shadow-lg hover:shadow-amber-500/25">
+                        Client Portal
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE 1: The Conversion Engine (Home) -->
+    <section id="home" class="relative pt-20 pb-32 lg:pt-40 lg:pb-40 bg-hero-pattern min-h-screen flex flex-col justify-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Hero Content -->
+                <div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest-800/50 border border-forest-800 text-amber-500 text-sm font-medium mb-6 backdrop-blur-sm">
+                        <i data-lucide="globe-2" class="w-4 h-4"></i> Global B2B Export Ready
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 tracking-tight">
+                        Securing the World's Premium <span class="text-amber-500">Raw Shea</span> Supply.
+                    </h1>
+                    <p class="text-lg text-slate-300 mb-8 max-w-xl leading-relaxed">
+                        Direct access to Nigeria's largest traceable shea supply chain. Supplying Grade A, unrefined shea butter to global cosmetics and pharmaceutical manufacturers with guaranteed chemical profiling.
+                    </p>
+                    
+                    <!-- High-Level Metrics -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-8 border-t border-forest-800 pt-8">
+                        <div>
+                            <div class="text-3xl font-bold text-white mb-1">30k+</div>
+                            <div class="text-sm text-slate-400">MT Annual Capacity</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-white mb-1">40%</div>
+                            <div class="text-sm text-slate-400">Global Supply Share</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-white mb-1">100%</div>
+                            <div class="text-sm text-slate-400">Traceable Origin</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Trust Signals -->
+                    <div class="flex flex-wrap gap-4 items-center">
+                        <span class="text-slate-400 text-sm font-medium uppercase tracking-wider mr-2">Certified By:</span>
+                        <div class="px-3 py-1 bg-white/10 rounded text-slate-200 text-sm border border-white/20">Organic</div>
+                        <div class="px-3 py-1 bg-white/10 rounded text-slate-200 text-sm border border-white/20">Global GAP</div>
+                        <div class="px-3 py-1 bg-white/10 rounded text-slate-200 text-sm border border-white/20">HACCP</div>
+                    </div>
+                </div>
+
+                <!-- Interactive Lead Funnel -->
+                <div class="bg-white rounded-2xl shadow-2xl p-8 border border-slate-100 transform transition-all duration-300 hover:shadow-3xl hover:-translate-y-2">
+                    <div class="mb-6">
+                        <h3 class="text-2xl font-bold text-forest-900">Procurement Portal</h3>
+                        <p class="text-slate-500 text-sm mt-1">Configure your supply requirements for instant analysis.</p>
+                    </div>
+                    
+                    <form class="space-y-5">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Product Grade</label>
+                            <select class="w-full border-slate-200 rounded-lg p-3 bg-slate-50 focus:ring-amber-500 focus:border-amber-500 outline-none transition-colors border">
+                                <option>Grade A - Unrefined (Cosmetic)</option>
+                                <option>Grade B - Refined (Food Grade)</option>
+                                <option>Raw Shea Nuts</option>
+                            </select>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-1">Volume (MT)</label>
+                                <input type="number" placeholder="Min. 20" class="w-full border-slate-200 rounded-lg p-3 bg-slate-50 focus:ring-amber-500 outline-none border transition-colors">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-1">Target Market</label>
+                                <select class="w-full border-slate-200 rounded-lg p-3 bg-slate-50 focus:ring-amber-500 outline-none border transition-colors">
+                                    <option>Europe</option>
+                                    <option>North America</option>
+                                    <option>Asia-Pacific</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Corporate Email</label>
+                            <input type="email" placeholder="procurement@company.com" class="w-full border-slate-200 rounded-lg p-3 bg-slate-50 focus:ring-amber-500 outline-none border transition-colors">
+                        </div>
+                        <button type="button" class="w-full bg-forest-900 hover:bg-forest-800 text-white font-semibold py-3.5 rounded-lg transition-all flex justify-center items-center gap-2 group">
+                            Request Batch Analysis & Pricing
+                            <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 2: Technical Specifications & Data Hub -->
+    <section id="specs" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-forest-900 mb-4 tracking-tight">Technical Specifications & Logistics</h2>
+                <p class="text-slate-500 text-lg">Data-driven quality assurance. Our parameters meet the strictest global requirements for cosmetics and pharmaceutical integration.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Chemical Profiling Table (Dashboard style) -->
+                <div class="lg:col-span-2 bg-slate-50 rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-xl font-bold text-forest-900 flex items-center gap-2">
+                            <i data-lucide="flask-conical" class="w-5 h-5 text-amber-500"></i> Chemical Profiling
+                        </h3>
+                        <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded border border-green-200">Verified Grade A</span>
+                    </div>
+                    
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="border-b border-slate-200">
+                                    <th class="pb-3 font-semibold text-slate-600 text-sm uppercase tracking-wider">Parameter</th>
+                                    <th class="pb-3 font-semibold text-slate-600 text-sm uppercase tracking-wider">Standard Limit</th>
+                                    <th class="pb-3 font-semibold text-slate-600 text-sm uppercase tracking-wider">Our Average</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-sm">
+                                <tr class="border-b border-slate-100 hover:bg-white transition-colors group">
+                                    <td class="py-4 text-slate-800 font-medium group-hover:text-amber-600 transition-colors">Free Fatty Acid (FFA)</td>
+                                    <td class="py-4 text-slate-500">&le; 1.0%</td>
+                                    <td class="py-4 text-forest-900 font-semibold">0.8%</td>
+                                </tr>
+                                <tr class="border-b border-slate-100 hover:bg-white transition-colors group">
+                                    <td class="py-4 text-slate-800 font-medium group-hover:text-amber-600 transition-colors">Moisture Content</td>
+                                    <td class="py-4 text-slate-500">&le; 0.05%</td>
+                                    <td class="py-4 text-forest-900 font-semibold">0.03%</td>
+                                </tr>
+                                <tr class="border-b border-slate-100 hover:bg-white transition-colors group">
+                                    <td class="py-4 text-slate-800 font-medium group-hover:text-amber-600 transition-colors">Peroxide Value</td>
+                                    <td class="py-4 text-slate-500">&le; 10 meq/kg</td>
+                                    <td class="py-4 text-forest-900 font-semibold">4.2 meq/kg</td>
+                                </tr>
+                                <tr class="border-b border-slate-100 hover:bg-white transition-colors group">
+                                    <td class="py-4 text-slate-800 font-medium group-hover:text-amber-600 transition-colors">Iodine Value</td>
+                                    <td class="py-4 text-slate-500">50 - 72 g/100g</td>
+                                    <td class="py-4 text-forest-900 font-semibold">62 g/100g</td>
+                                </tr>
+                                <tr class="hover:bg-white transition-colors group">
+                                    <td class="py-4 text-slate-800 font-medium group-hover:text-amber-600 transition-colors">Saponification Value</td>
+                                    <td class="py-4 text-slate-500">170 - 190 mg KOH/g</td>
+                                    <td class="py-4 text-forest-900 font-semibold">182 mg KOH/g</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Logistics & Action Cards -->
+                <div class="space-y-6">
+                    <!-- Export Details -->
+                    <div class="bg-forest-900 rounded-2xl p-8 text-white shadow-lg relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
+                        <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="ship" class="w-16 h-16 text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Export Logistics</h3>
+                        <ul class="space-y-4 mb-6 relative z-10 text-slate-300 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="package" class="w-5 h-5 text-amber-500 shrink-0"></i>
+                                <span><strong class="text-white">Packaging:</strong> 25kg PE-lined cartons / Customized steel drums.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="boxes" class="w-5 h-5 text-amber-500 shrink-0"></i>
+                                <span><strong class="text-white">MOQ:</strong> 20 Metric Tons (1 TEU).</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="file-text" class="w-5 h-5 text-amber-500 shrink-0"></i>
+                                <span><strong class="text-white">Incoterms:</strong> FOB Lagos, CIF available upon request.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Download/Sample Actions -->
+                    <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col gap-3">
+                        <button class="w-full flex items-center justify-between px-4 py-3 bg-slate-50 hover:bg-slate-100 text-slate-700 font-medium rounded-lg transition-colors border border-slate-200">
+                            <span>Download Full Spec Sheet (PDF)</span>
+                            <i data-lucide="download" class="w-4 h-4 text-amber-600"></i>
+                        </button>
+                        <button class="w-full flex items-center justify-between px-4 py-3 bg-amber-500 hover:bg-amber-600 text-forest-900 font-bold rounded-lg transition-colors shadow-sm">
+                            <span>Request Commercial Sample</span>
+                            <i data-lucide="flask-round" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 3: Sourcing, Sustainability & Infrastructure -->
+    <section id="sourcing" class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                
+                <!-- Text Narrative -->
+                <div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-700 text-xs font-bold uppercase tracking-wider mb-6">
+                        Traceability Ledger
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-forest-900 mb-6 tracking-tight">Ethical Sourcing Meets Industrial Scale.</h2>
+                    <p class="text-slate-600 text-lg mb-8 leading-relaxed">
+                        Our operation formalizes the rural economy. We integrate traditional expertise from over 150 hectares of women smallholder farmers with state-of-the-art processing technologies to ensure premium quality without compromising social impact.
+                    </p>
+                    
+                    <!-- Vertical Timeline -->
+                    <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-amber-500 before:to-forest-900">
+                        
+                        <!-- Step 1 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-amber-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 relative z-10 transition-transform group-hover:scale-110">
+                                <i data-lucide="users" class="w-4 h-4"></i>
+                            </div>
+                            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-slate-100 bg-white shadow-sm transition-all group-hover:shadow-md group-hover:-translate-y-1">
+                                <h4 class="font-bold text-forest-900 mb-1">Women's Cooperatives</h4>
+                                <p class="text-sm text-slate-500">Direct sourcing from organized rural networks, ensuring fair trade premiums and economic empowerment in the Nigerian Shea Belt.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-forest-800 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 relative z-10 transition-transform group-hover:scale-110">
+                                <i data-lucide="check-square" class="w-4 h-4"></i>
+                            </div>
+                            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-slate-100 bg-white shadow-sm transition-all group-hover:shadow-md group-hover:-translate-y-1">
+                                <h4 class="font-bold text-forest-900 mb-1">Aggregation & QA</h4>
+                                <p class="text-sm text-slate-500">Rigorous moisture and quality checks at farm-gate collection centers to prevent degradation before transit.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-forest-800 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 relative z-10 transition-transform group-hover:scale-110">
+                                <i data-lucide="factory" class="w-4 h-4"></i>
+                            </div>
+                            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-slate-100 bg-white shadow-sm transition-all group-hover:shadow-md group-hover:-translate-y-1">
+                                <h4 class="font-bold text-forest-900 mb-1">100-Tonne Processing</h4>
+                                <p class="text-sm text-slate-500">Processed in newly commissioned, automated facilities retaining natural vitamins while achieving export-grade FFA limits.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image / Visual Infrastructure -->
+                <div class="relative h-full min-h-[500px] rounded-2xl overflow-hidden shadow-2xl group">
+                    <img src="https://images.unsplash.com/photo-1599839619722-39751411ea63?auto=format&fit=crop&q=80&w=1000" alt="Agro Processing Facility" class="absolute inset-0 w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-900/90 via-forest-900/40 to-transparent"></div>
+                    
+                    <!-- Overlay Stats -->
+                    <div class="absolute bottom-0 left-0 p-8 w-full">
+                        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6 text-white">
+                            <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                                <i data-lucide="activity" class="w-5 h-5 text-amber-500"></i>
+                                Infrastructure Edge
+                            </h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <div class="text-2xl font-bold text-amber-500">100MT</div>
+                                    <div class="text-sm text-slate-300">Daily Processing</div>
+                                </div>
+                                <div>
+                                    <div class="text-2xl font-bold text-amber-500">4M+</div>
+                                    <div class="text-sm text-slate-300">Rural Workforce Network</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-forest-900 text-slate-300 py-12 border-t border-forest-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <i data-lucide="leaf" class="text-amber-500 w-6 h-6"></i>
+                        <span class="text-white font-bold text-xl">NigShea<span class="text-amber-500">.</span></span>
+                    </div>
+                    <p class="text-sm text-slate-400 max-w-sm mb-4">
+                        Bridging the gap between Nigeria's massive raw shea supply and the exacting standards of the global cosmetics industry.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-amber-500 transition-colors">Spec Sheets</a></li>
+                        <li><a href="#" class="hover:text-amber-500 transition-colors">Certifications</a></li>
+                        <li><a href="#" class="hover:text-amber-500 transition-colors">Logistics & Shipping</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> exports@nigshea.com</li>
+                        <li class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Abuja, Nigeria</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-forest-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
+                <p>&copy; 2026 NigShea Export Hub. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition-colors">Privacy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
